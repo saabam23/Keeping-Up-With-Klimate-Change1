@@ -1,0 +1,658 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: #86fd86;
+  margin: 0;
+}
+
+.logo{
+  width: 200px;
+  height: 100px;
+  float: left;
+  border-radius: 30px;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+.image-2 {
+  width: 100%;
+  height: auto;
+}
+ 
+ul{
+  list-style-type: none;
+  margin: 1px;
+ 
+}
+
+li{
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+}
+
+iframe{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.fact-container{
+  margin-top: 30px;
+  font-family: open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 75px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.posNews-btn{
+  background-color: #f2d7ee;
+  border-radius: 15px;
+  font-family:open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 20px;
+  font-size: 20px;
+  /* for the click effect */
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #dbdbdb;
+}
+
+.posNews-btn:hover {
+  background-color: #f2d7ee;
+}
+
+.posNews-btn:active {
+  background-color: #f2d7ee;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.font-effect-outline{
+  color: #ff9e5e;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  font-style: bold;
+}
+
+
+.KUWKC {
+  /* font-family: open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  font-family: "Sofia", sans-serif;
+  color: #ff9e5e;
+  font-size: 64px;
+  display: flex;
+  justify-content: center;
+  font-style: bold;
+
+}
+
+li a:hover.navButton{
+  background-color: white;
+  color: #ff9e5e;
+}
+
+.navButtons {
+  color: white;
+  background-color: #ff9e5e;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  position:sticky;
+  top: 0;
+}
+
+.navButton {
+  color: white;
+  background-color: #ff9e5e;
+  border: 0;
+  margin: 4px;
+  font-style: bold;
+  padding: 10px;
+}
+/* about CC */
+.whatsClimate {
+  display: flex;
+  justify-content: space-around;
+}
+.briefOverview {
+  margin-top:55px;
+  margin-left:21px;
+  font-family: open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.climate {
+  text-align: center;
+  font-size: 20px;
+  margin-left: 200px;
+  margin-right: 150px;
+}
+.tempPic {
+  height: 300px;
+  width: 500px;
+  object-fit: cover;
+   margin-top: 30px;
+  margin-right: 200px;
+  margin-bottom: 1.5rem;
+}
+/* climate change causes */
+.butWhat {
+  margin-top:55px;
+  margin-right:80px;
+  font-family: open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.causesList {
+  margin-left: 150px;
+  margin-right: 260px;
+  list-style-type: square;  
+  
+}
+.causesBullet {
+  list-style-type: square;  
+  font-size: 20px;
+
+}
+
+.causesPic {
+  height: 300px;
+  width: 500px;
+  object-fit: cover;
+   margin-top: 30px;
+  margin-left: 180px;
+  margin-bottom: 1.5rem;
+}
+.climateCause {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* our mission */
+.ourMission {
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.missionStatement {
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 2rem;
+}
+.infoOnHomePage {
+  text-align: center;
+}
+.mission {
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background-color: white;
+  opacity: 80%;
+  padding: 20px;
+  margin-right:100px;
+  margin-left: 100px;
+  margin-top: 50px;
+  border-radius: 20px;
+  
+}
+
+/* countdown */
+
+.totalCount {
+  background: #ff9e5e;
+  padding: 40px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.climateHead {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.coming-soon {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("./images/example1.jpg");
+  background-size: 100%;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.year,
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 3rem;
+}
+
+.waiting {
+  height: 50vh;
+}
+/* header  border-block-color:; */
+
+.pageHeaders {
+  font-family:open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: black;
+  font-size: 64px;
+  display: flex;
+  justify-content: center;
+  font-style: bold;
+}
+
+/* About us page */
+.imgClass {
+  display: flex;
+  justify-content: space-around;
+  margin: 8px;
+}
+.aboutHannah {
+  height: 400px;
+  object-fit: cover;
+}
+.aboutSyd{
+  height: 400px;
+  object-fit: cover;
+}
+.captionClass {
+  display: flex;
+  justify-content: space-around;
+}
+
+.personalCaption {
+  margin: 8px;
+  width: 430px;
+  text-align: center;
+  
+}
+.aboutAmy {
+  height: 400px;
+  object-fit: cover;
+}
+/* Areas affected page */
+.hidden {
+  display: none; 
+}
+.map {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.fixedMap {
+  height: 350px;
+  width: 600px;
+  border: 2px solid #86fd86;
+}
+
+.hoverMap {
+  text-align: center;
+  color: black;
+}
+
+.canada {
+  position: absolute;
+  top: 600px;
+  left: 250px;
+}
+
+.canadaInfo {
+  position: absolute;
+  top: 650px;
+  left: 150px;
+  right:900px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.germany {
+  position: absolute;
+  top: 600px;
+  left: 697px;
+}
+
+.germanyInfo {
+  position: absolute;
+  top: 650px;
+  left: 650px;
+  right: 400px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.japan {
+  position: absolute;
+  top: 675px;
+  left: 1210px;
+}
+
+.japanInfo {
+  position: absolute;
+  top: 730px;
+  left: 1000px;
+  right: 100px;
+  padding: 8px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.madagascar {
+  position: absolute;
+  top: 950px;
+  left: 840px;
+}
+
+.madagascarInfo {
+  position: absolute;
+  top: 950px;
+  left: 900px;
+  right: 100px;
+  padding: 8px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.philippines {
+  position: absolute;
+  top: 775px;
+  left: 1140px;
+}
+
+.philippinesInfo {
+  position: absolute;
+  top: 825px;
+  left: 975px;
+  right: 50px;
+  background-color: white;
+  padding: 8px;
+  border-radius:8px;
+}
+
+.kenya {
+  position: absolute;
+  top: 850px;
+  left: 800px;
+}
+
+.kenyaInfo {
+  position: absolute;
+  top: 900px;
+  left: 650px;
+  right: 200px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.srilanka {
+  position: absolute;
+  top: 812px;
+  left: 978px;
+}
+
+.srilankaInfo {
+  position: absolute;
+  top: 850px;
+  left: 900px;
+  right: 100px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.india {
+  position: absolute;
+  top: 750px;
+  left: 960px;
+}
+
+.indiaInfo {
+  position: absolute;
+  top: 810px;
+  left: 860px;
+  right: 100px;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: white;
+}
+
+.haiti {
+  position: absolute;
+  top: 760px;
+  left: 368px;
+}
+
+.haitiInfo {
+  padding: 8px;
+  top: 800px;
+  left: 200px;
+  right:700px;
+  background-color: white;
+  position: absolute;
+  border-radius: 8px;
+}
+
+.pin {
+  height: 30px;
+  width: 52px;
+}
+
+/* wycd page */
+.wycd{
+  text-align: center;
+}
+.wycdMain {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  column-gap: 30px;
+  row-gap: 30px;
+  flex-wrap: wrap;
+}
+.disclaimer {
+  text-align: center;
+  align-content: center;
+  width:800px; 
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.wycdSubHeading {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.petition {
+  width: 600px;
+  margin-left:auto;
+  margin-right:auto;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff9e5e;
+}
+.donation {
+  width: 600px;
+  margin-left:auto;
+  margin-right:auto;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff9e5e;
+}
+.vote {
+  width: 600px;
+  margin-left:auto;
+  margin-right:auto;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff9e5e;
+  margin-bottom: 30px;
+}
+.sustainability {
+  width: 600px;
+  margin-left:auto;
+  margin-right:auto;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff9e5e;
+  margin-bottom: 30px;
+}
+/*Resource html page below:  */
+.resources {
+  text-align: center;
+}
+
+.resourceContainer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.subHeading{
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.instaPosts{
+  text-align:center;
+}
+
+.instaContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.link {
+  text-align: center;
+}
+.helpfulLinks {
+  width:100%; 
+  margin-left:auto;
+  margin-right: auto;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 100;
+  margin-bottom: 30px; 
+  height: 50px;
+  text-align: center;
+  
+}
+
+
+/* myths */
+.debunkedMyth {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+
+}
+.myths {
+  
+}
+
+.mythButtons {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+/*   display: flex;
+  align-items: row;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 300px; */
+} 
+
+.mythHover {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  height: 300px;
+  width: 300px;  
+}
+
+button .hovering {
+  display: none;
+  background-color: #32DE8A;
+}
+
+button:hover .mythHover {
+  display: none;
+}
+
+button:hover .hovering {
+  display: inline;
+}
+button{
+   background-color: whitesmoke;
+}
+button:hover{
+   background-color: #32DE8A;
+}
+.image-1 {
+  background: url('https://tse4.mm.bing.net/th?id=OIP.8VoxGiYugYto3NfQcF3aRQHaEK&pid=Api') no-repeat fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px;
+  width: 100%
+}
+
+.image-2 {
+  background: url('https://www.gannett-cdn.com/presto/2019/10/09/USAT/496a4c04-d7f2-4785-bb42-ccd935a18eee-AP_Climate_Strike_California.JPG?crop=1537,865,x0,y891&width=1537&height=865&format=pjpg&auto=webp') no-repeat fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
